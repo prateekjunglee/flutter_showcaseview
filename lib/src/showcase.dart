@@ -506,7 +506,7 @@ class _ShowcaseState extends State<Showcase> {
                   onTap: _getOnTargetTap,
                   radius: widget.targetBorderRadius,
                   onDoubleTap: widget.onTargetDoubleTap,
-                  onLongPress: widget.onTargetLongPress,
+                  onLongPress: _getOnTargetTap,
                   shapeBorder: widget.targetShapeBorder,
                   disableDefaultChildGestures:
                       widget.disableDefaultTargetGestures,
